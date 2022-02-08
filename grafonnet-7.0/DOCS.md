@@ -137,7 +137,7 @@ Instantiate a dashboard.
 * **values**: (type: boolean, default: `false`)
   
 
-#### #addDataLink
+#### #addPanelLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -145,7 +145,7 @@ Instantiate a dashboard.
   
 * **url**: (type: string, default: `null`)
   
-#### #addPanelLink
+#### #addDataLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -531,7 +531,7 @@ Instantiate a dashboard.
 * **values**: (type: boolean, default: `false`)
   
 
-#### #addDataLink
+#### #addPanelLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -539,7 +539,7 @@ Instantiate a dashboard.
   
 * **url**: (type: string, default: `null`)
   
-#### #addPanelLink
+#### #addDataLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -629,7 +629,7 @@ Instantiate a dashboard.
 * **showHeader**: (type: boolean, default: `true`)
   
 
-#### #addDataLink
+#### #addPanelLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -637,7 +637,7 @@ Instantiate a dashboard.
   
 * **url**: (type: string, default: `null`)
   
-#### #addPanelLink
+#### #addDataLink
 
 * **targetBlank**: (type: boolean, default: `true`)
   
@@ -666,6 +666,12 @@ Instantiate a dashboard.
 * **matcher**: (type: oject, default: `null`)
   
 * **properties**: (type: array, default: `null`)
+  
+#### #addSortBy
+
+* **desc**: (type: boolean, default: `true`)
+  
+* **displayName**: (type: string, default: `null`)
   
 #### #addThresholdStep
 

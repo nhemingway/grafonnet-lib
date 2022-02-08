@@ -112,6 +112,17 @@
           },
         ] } },
 
+    addSortBy(
+      desc=true,
+      displayName=null,
+    ):: self {}
+        + { options+: { sortBy+: [
+          {
+            [if desc != null then 'desc']: desc,
+            [if displayName != null then 'displayName']: displayName,
+          },
+        ] } },
+
     addThresholdStep(
       color=null,
       value=null,
